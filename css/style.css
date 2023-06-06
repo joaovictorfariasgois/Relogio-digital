@@ -70,7 +70,7 @@ img{
         flex-direction: column;
         align-items: center;
     }
-    .relogio .show{
+    .relogio .separator{
       display: none;
     }
     
@@ -83,7 +83,7 @@ img{
         flex-direction: column;
         align-items: center;
     }
-    .relogio .show{
+    .relogio .separator{
       display: none;
     }
     
