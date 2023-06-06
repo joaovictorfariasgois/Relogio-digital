@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+.background-img{
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.relogio{
+    background-color: rgb(44, 44, 44);
+    z-index: 1000;
+    width: 70%;
+    height: 60vh;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute ;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+
+}
+
+.relogio span{
+    font-size:200px;
+    letter-spacing: 10px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: #7fffd4;
+}
+@media(max-width:880px){
+    .relogio span{
+        font-size: 150px;
+    }
+}
+@media(max-width:720px){
+    .relogio span{
+        font-size: 100px;
+    }
+    
+}
+@media(max-width:510px){
+    .relogio span{
+        font-size: 70px;
+    }
+    
+}
+@media(max-width:400px){
+    .relogio span{
+        font-size: 100px;
+    }
+    .relogio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .relogio .show{
+      display: none;
+    }
+    
+}
+@media(max-width:310px){
+    .relogio span{
+        font-size: 80px;
+    }
+    .relogio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .relogio .show{
+      display: none;
+    }
+    
+}
