@@ -14,6 +14,7 @@ body{
     z-index: 999;
     width: 100vw;
     height: 100vh;
+
     
 }
 img{
@@ -36,6 +37,7 @@ img{
     top: 5%;
     left: 10%;
     right: 10%;
+    
 
 }
 
@@ -45,20 +47,73 @@ img{
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #7fffd4;
 }
-@media(max-width:880px){
+
+.relogio .time{
+    font-size:37px;
+   
+   
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
     .relogio span{
-        font-size: 150px;
+        font-size: 130px;
     }
 }
-@media(max-width:720px){
+@media(max-width:860px){
+    .relogio span{
+        font-size: 110px;
+    }
+}
+@media(max-width:780px){
     .relogio span{
         font-size: 100px;
     }
     
 }
-@media(max-width:510px){
+@media(max-width:720px){
     .relogio span{
         font-size: 70px;
+    }
+    
+}
+@media(max-width:620px){
+    .relogio span{
+        font-size: 60px;
+    }
+    
+}
+
+@media(max-width:570px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .relogio span{
+        font-size: 100px;
+    }
+
+    .tempo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .time{
+        display: none;
+    }
+
+    .relogio .separator{
+      display: none;
     }
     
 }
